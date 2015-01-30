@@ -78,15 +78,6 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
 audio,
 canvas,
 img,
@@ -154,7 +145,7 @@ textarea {
 body {
     background: #fff;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 1.2;
     color: #333333;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -183,7 +174,7 @@ h6 {
     margin: 10px 0;
     font-family: inherit;
     font-weight: bold;
-    line-height: 20px;
+    line-height: 1.1;
     color: inherit;
     text-rendering: optimizelegibility;
 }
@@ -206,7 +197,7 @@ ol ul {
 }
 
 li {
-    line-height: 20px;
+    line-height: 1.2;
 }
 
 ul.inline,
@@ -264,7 +255,7 @@ ol.inline > li {
 
 /**=============author style==============**/
 .container {
-    width: 940px;
+    width: 960px;
     margin: 0 auto;
 }
 body {
